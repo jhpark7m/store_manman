@@ -1,0 +1,42 @@
+[
+  {
+    "id": 51,
+    "name": "용인 한숲시티점",
+    "url": "https://manman17.cafe24.com/minishop/manman30yhc",
+    "http_status": 200,
+    "final_url": "https://manman17.cafe24.com/minishop/manman30yhc",
+    "page_title": "만만마켓"
+  },
+  {
+    "id": 52,
+    "name": "잠실 장미아파트점",
+    "url": "https://manman17.cafe24.com/minishop/manman31jja?cate_no=430",
+    "http_status": 200,
+    "final_url": "https://manman17.cafe24.com/minishop/manman31jja?cate_no=430",
+    "page_title": "만만마켓"
+  },
+  {
+    "id": 54,
+    "name": "왕십리 센트라스점",
+    "url": "https://manmanmarket.com/minishop/manman32wsc",
+    "http_status": 200,
+    "final_url": "https://manmanmarket.com/minishop/manman32wsc",
+    "page_title": "만만마켓"
+  },
+  {
+    "id": 55,
+    "name": "평택 용죽점",
+    "url": "https://manmanmarket.com/minishop/manman33pty",
+    "http_status": 200,
+    "final_url": "https://manmanmarket.com/minishop/manman33pty",
+    "page_title": "만만마켓"
+  },
+  {
+    "id": 56,
+    "name": "수지 신봉점",
+    "url": "https://manmanmarket.com/minishop/manman34ssb",
+    "http_status": 200,
+    "final_url": "https://manmanmarket.com/minishop/manman34ssb",
+    "page_title": "만만마켓"
+  }
+]

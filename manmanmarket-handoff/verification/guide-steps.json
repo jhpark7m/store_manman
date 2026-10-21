@@ -1,0 +1,209 @@
+[
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "검색 화면: 만만마켓 지점 찾기",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "지점명이나 동네를\n검색해 주세요.",
+    "url": "http://127.0.0.1:4173/guide#find"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "검색 결과: 만만마켓 지점 찾기",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "지점 이름과 주소를\n확인해 주세요.",
+    "url": "http://127.0.0.1:4173/guide#find/results"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "입장 버튼: 만만마켓 지점 찾기",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "원하는 입장 버튼을\n선택해 주세요.",
+    "url": "http://127.0.0.1:4173/guide#find/entry"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "브라우저에서 그룹 오픈채팅 참여하기",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "웹 주문 페이지 왼쪽 위 메뉴 열기",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "메뉴의 카카오톡 오픈채팅방 선택",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "카카오톡 연결 버튼을\n눌러 주세요.",
+    "url": "http://127.0.0.1:4173/guide#join"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "지점명 확인 후 오픈채팅 참여하기",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "웹 주문 페이지 왼쪽 위 메뉴 열기",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "메뉴의 카카오톡 오픈채팅방 선택",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "방 이름을 확인하고\n참여해 주세요.",
+    "url": "http://127.0.0.1:4173/guide#join/room"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "카카오프렌즈 프로필 선택과 닉네임 설정",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "카카오프렌즈 프로필을\n선택해 주세요.",
+    "url": "http://127.0.0.1:4173/guide#nickname"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "카카오프렌즈 프로필 선택과 닉네임 설정",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "닉네임에 전화번호\n끝 4자리를 붙여요.",
+    "url": "http://127.0.0.1:4173/guide#nickname/name"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "카카오프렌즈 프로필 선택과 닉네임 설정",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "프로필과 이름 확인 후\n입장해 주세요.",
+    "url": "http://127.0.0.1:4173/guide#nickname/confirm"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "필독 공지: 웹 주문, 채팅 주문, 픽업 안내",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "필독 공지를\n먼저 읽어 주세요.",
+    "url": "http://127.0.0.1:4173/guide#purchase"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "고객들이 카카오톡 채팅방에 상품명과 수량을 적어 주문하는 실제 대화",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "상품명과 수량을\n적어 주세요.",
+    "url": "http://127.0.0.1:4173/guide#purchase/order"
+  },
+  {
+    "images": [
+      {
+        "alt": "만만마켓",
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": "냉장 진열장과 키오스크가 보이는 만만마켓 매장 내부",
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": false,
+    "title": "안내받은 픽업일에\n매장으로 방문하세요.",
+    "url": "http://127.0.0.1:4173/guide#purchase/pickup"
+  }
+]

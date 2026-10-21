@@ -1,0 +1,282 @@
+{
+  "checked_on": "2026-10-15",
+  "timezone": "Asia/Seoul",
+  "landing_url": "https://manman17.cafe24.com/",
+  "source_api": "https://rbllvsekqsdszsmzmwhp.supabase.co/functions/v1/store-get",
+  "selection_rule": "is_active == true and is_display == true",
+  "verification_scope": "2026-10-15 공개 고객 표시 지점 34개 대조. 51·52 사용자 지정 주소 유지. 신규 왕십리 센트라스점(54)·평택 용죽점(55) 카카오톡 URL은 사용자 직접 제공. 수지 신봉점(56)은 공식 URL 미확인으로 null. 로그인·주문·채팅방 참여 미실행.",
+  "count": 34,
+  "excluded_non_display_names": [
+    "점주몰",
+    "자체공급"
+  ],
+  "normalization": "용인 한숲시티점 chat_url 앞 공백 제거. 그 외 URL 대소문자 유지.",
+  "stores": [
+    {
+      "store_id": 1,
+      "name": "평촌 어바인퍼스트점",
+      "shop_url": "https://manmanmarket.com/minishop/manman01puf",
+      "kakao_chat_url": "https://open.kakao.com/o/gRYDwI2h",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman01puf"
+    },
+    {
+      "store_id": 2,
+      "name": "녹번 이편한세상캐슬점",
+      "shop_url": "https://manmanmarket.com/minishop/manman02nec",
+      "kakao_chat_url": "https://open.kakao.com/o/g2HZ9Q8h",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman02nec"
+    },
+    {
+      "store_id": 7,
+      "name": "가락 쌍용1차아파트점",
+      "shop_url": "https://manmanmarket.com/minishop/manman03gsa",
+      "kakao_chat_url": "https://open.kakao.com/o/gNqwRudi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman03gsa"
+    },
+    {
+      "store_id": 9,
+      "name": "전농 래미안크레시티점",
+      "shop_url": "https://manmanmarket.com/minishop/manman04jrc",
+      "kakao_chat_url": "https://open.kakao.com/o/gCuMfBji",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman04jrc"
+    },
+    {
+      "store_id": 10,
+      "name": "마곡 엠밸리점",
+      "shop_url": "https://manmanmarket.com/minishop/manman05mmv",
+      "kakao_chat_url": "https://open.kakao.com/o/gAXecBji",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman05mmv"
+    },
+    {
+      "store_id": 11,
+      "name": "문정 올림픽훼밀리점",
+      "shop_url": "https://manmanmarket.com/minishop/manman06mof",
+      "kakao_chat_url": "https://open.kakao.com/o/gXmH2Yji",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman06mof"
+    },
+    {
+      "store_id": 12,
+      "name": "상도 힐스테이트점",
+      "shop_url": "https://manmanmarket.com/minishop/manman07shs",
+      "kakao_chat_url": "https://open.kakao.com/o/g7WZ2Ski",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman07shs"
+    },
+    {
+      "store_id": 13,
+      "name": "안양 메가트리아점",
+      "shop_url": "https://manmanmarket.com/minishop/manman08amt",
+      "kakao_chat_url": "https://open.kakao.com/o/gQsjwBoi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman08amt"
+    },
+    {
+      "store_id": 14,
+      "name": "운정 초롱꽃마을점",
+      "shop_url": "https://manmanmarket.com/minishop/manman09ucg",
+      "kakao_chat_url": "https://open.kakao.com/o/gctGnuqi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman09ucg"
+    },
+    {
+      "store_id": 20,
+      "name": "마포 프레스티지자이점",
+      "shop_url": "https://manmanmarket.com/minishop/manman10mpx",
+      "kakao_chat_url": "https://open.kakao.com/o/gYvsuQri",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman10mpx"
+    },
+    {
+      "store_id": 21,
+      "name": "수지 이편한세상점",
+      "shop_url": "https://manmanmarket.com/minishop/manman11ses",
+      "kakao_chat_url": "https://open.kakao.com/o/gBQzwBoi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman11ses"
+    },
+    {
+      "store_id": 22,
+      "name": "과천 자이아파트점",
+      "shop_url": "https://manmanmarket.com/minishop/manman12gxa",
+      "kakao_chat_url": "https://open.kakao.com/o/gwE0JQri",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman12gxa"
+    },
+    {
+      "store_id": 23,
+      "name": "올림픽파크포레온점",
+      "shop_url": "https://manmanmarket.com/minishop/manman13opf",
+      "kakao_chat_url": "https://open.kakao.com/o/gHPYwBoi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman13opf"
+    },
+    {
+      "store_id": 24,
+      "name": "올림픽선수촌점",
+      "shop_url": "https://manmanmarket.com/minishop/manman14osc",
+      "kakao_chat_url": "https://open.kakao.com/o/g0qDYRui",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman14osc"
+    },
+    {
+      "store_id": 25,
+      "name": "미아 뉴타운래미안트리베라점",
+      "shop_url": "https://manmanmarket.com/minishop/manman15mnr",
+      "kakao_chat_url": "https://open.kakao.com/o/gg8vFOwi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman15mnr"
+    },
+    {
+      "store_id": 26,
+      "name": "식사 위시티자이점",
+      "shop_url": "https://manmanmarket.com/minishop/manman16swx",
+      "kakao_chat_url": "https://open.kakao.com/o/gE1ypPwi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman16swx"
+    },
+    {
+      "store_id": 27,
+      "name": "이문 래미안라그란데점",
+      "shop_url": "https://manmanmarket.com/minishop/manman17irl",
+      "kakao_chat_url": "https://open.kakao.com/o/gY8NHOwi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman17irl"
+    },
+    {
+      "store_id": 28,
+      "name": "행신 샘터마을점",
+      "shop_url": "https://manmanmarket.com/minishop/manman18hsm",
+      "kakao_chat_url": "https://open.kakao.com/o/gU69JVxi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman18hsm"
+    },
+    {
+      "store_id": 29,
+      "name": "상일 고덕아르테온점",
+      "shop_url": "https://manmanmarket.com/minishop/manman19sga",
+      "kakao_chat_url": "https://open.kakao.com/o/gHVJ4Owi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman19sga"
+    },
+    {
+      "store_id": 30,
+      "name": "암사 프라이어팰리스점",
+      "shop_url": "https://manmanmarket.com/minishop/manman20app",
+      "kakao_chat_url": "https://open.kakao.com/o/g2qXmEyi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman20app"
+    },
+    {
+      "store_id": 31,
+      "name": "잠원 메이플자이점",
+      "shop_url": "https://manmanmarket.com/minishop/manman21jmx",
+      "kakao_chat_url": "https://open.kakao.com/o/g4A4mfBi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman21jmx"
+    },
+    {
+      "store_id": 32,
+      "name": "신내 봉화산역점",
+      "shop_url": "https://manmanmarket.com/minishop/manman22snb",
+      "kakao_chat_url": "https://open.kakao.com/o/gm86CZBi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman22snb"
+    },
+    {
+      "store_id": 33,
+      "name": "신목점",
+      "shop_url": "https://manmanmarket.com/minishop/manman24smd",
+      "kakao_chat_url": "https://open.kakao.com/o/gB6b77Di",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman24smd"
+    },
+    {
+      "store_id": 34,
+      "name": "봉천 서희스타힐스점",
+      "shop_url": "https://manmanmarket.com/minishop/manman23bss",
+      "kakao_chat_url": "https://open.kakao.com/o/gR0wyZDi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman23bss"
+    },
+    {
+      "store_id": 35,
+      "name": "문산 선유점",
+      "shop_url": "https://manmanmarket.com/minishop/manman25mss",
+      "kakao_chat_url": "https://open.kakao.com/o/g2aslnFi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman25mss"
+    },
+    {
+      "store_id": 41,
+      "name": "목동 신정점",
+      "shop_url": "https://manmanmarket.com/minishop/manman27ms",
+      "kakao_chat_url": "https://open.kakao.com/o/gwfsH2Gi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman27ms"
+    },
+    {
+      "store_id": 42,
+      "name": "안양 어반포레점",
+      "shop_url": "https://manmanmarket.com/minishop/manman28auf",
+      "kakao_chat_url": "https://open.kakao.com/o/gTZVLHJi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman28auf"
+    },
+    {
+      "store_id": 44,
+      "name": "배곧 한라비발디점",
+      "shop_url": "https://manmanmarket.com/minishop/manman26bhv",
+      "kakao_chat_url": "https://open.kakao.com/o/gd4Trh7h",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman26bhv"
+    },
+    {
+      "store_id": 48,
+      "name": "광교 상현역점",
+      "shop_url": "https://manmanmarket.com/minishop/manman29gsh",
+      "kakao_chat_url": "https://open.kakao.com/o/glyLuRLi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman29gsh"
+    },
+    {
+      "store_id": 51,
+      "name": "용인 한숲시티점",
+      "shop_url": "https://manman17.cafe24.com/minishop/manman30yhc",
+      "kakao_chat_url": "https://open.kakao.com/o/gi9ueini",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman30yhc",
+      "previous_shop_url": "https://manmanmarket.com/minishop/manman30yhc",
+      "link_source": "user_provided_2026-10-03",
+      "user_confirmed_on": "2026-10-03"
+    },
+    {
+      "store_id": 52,
+      "name": "잠실 장미아파트점",
+      "shop_url": "https://manman17.cafe24.com/minishop/manman31jja?cate_no=430",
+      "kakao_chat_url": "http://open.kakao.com/o/gpTwW2Ni",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman31jja?cate_no=430",
+      "previous_shop_url": "https://manmanmarket.com/minishop/manman31jja",
+      "previous_kakao_chat_url": "https://open.kakao.com/o/gpTwW2Ni",
+      "link_source": "user_provided_2026-10-03",
+      "user_confirmed_on": "2026-10-03"
+    },
+    {
+      "store_id": 54,
+      "name": "왕십리 센트라스점",
+      "shop_url": "https://manmanmarket.com/minishop/manman32wsc",
+      "kakao_chat_url": "https://open.kakao.com/o/g8KnDNOi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman32wsc",
+      "kakao_chat_status": "user_confirmed",
+      "raw_chat_url": "만만마켓 왕십리센트라스점",
+      "link_source": "user_confirmed_2026-10-15"
+    },
+    {
+      "store_id": 55,
+      "name": "평택 용죽점",
+      "shop_url": "https://manmanmarket.com/minishop/manman33pty",
+      "kakao_chat_url": "https://open.kakao.com/o/gtQ3MYOi",
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman33pty",
+      "kakao_chat_status": "user_confirmed",
+      "raw_chat_url": "평택 용죽점",
+      "link_source": "user_confirmed_2026-10-15"
+    },
+    {
+      "store_id": 56,
+      "name": "수지 신봉점",
+      "shop_url": "https://manmanmarket.com/minishop/manman34ssb",
+      "kakao_chat_url": null,
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman34ssb",
+      "kakao_chat_status": "pending_official_url",
+      "raw_chat_url": "수지 신봉점"
+    }
+  ],
+  "primary_shop_domain": "https://manmanmarket.com",
+  "field_definitions": {
+    "shop_url": "웹 주문 버튼에 사용할 URL. 기본은 공식 도메인과 공개 link 경로이며, 최신 사용자 확정 주소가 있는 지점은 그 주소를 우선한다.",
+    "kakao_chat_url": "카카오톡방 입장 버튼 URL. 공개 chat_url 또는 최신 사용자 확정 주소. URL 코드 대소문자·사용자 지정 스킴을 보존한다.",
+    "cafe24_shop_url": "Cafe24 웹 주문 주소 보존. 사용자 확정 예외 51·52는 shop_url로도 사용한다."
+  },
+  "user_flow": "지점 선택 → 웹 주문 페이지 → 왼쪽 상단 메뉴 → 카카오톡 오픈채팅방 → 그룹 오픈채팅 참여하기. 제공된 캡처의 흐름 기준.",
+  "last_user_update_on": "2026-10-03",
+  "user_confirmed_store_ids": [
+    51,
+    52
+  ],
+  "link_priority": "최신 사용자 제공 링크를 우선한다. 용인 한숲시티점(51)·잠실 장미아파트점(52)은 사용자가 지정한 Cafe24 shop_url을 사용한다. 잠실의 ?cate_no=430 및 카카오 http 스킴을 원문대로 보존한다. 그 외 29개는 기존 매칭 유지."
+}

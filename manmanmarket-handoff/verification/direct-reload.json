@@ -1,0 +1,20 @@
+[
+  {
+    "main": true,
+    "overflow": false,
+    "path": "/stores/",
+    "title": "만만마켓 · 지점 찾기"
+  },
+  {
+    "main": true,
+    "overflow": false,
+    "path": "/guide/",
+    "title": "만만마켓 · 이용 방법"
+  },
+  {
+    "main": true,
+    "overflow": false,
+    "path": "/",
+    "title": "만만마켓 소개 페이지"
+  }
+]

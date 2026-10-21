@@ -1,0 +1,40 @@
+[
+  {
+    "card": "만만마켓왕십리 센트라스점방문 위치는 해당 지점의 안내를 확인해 주세요.웹에서 주문카카오톡방 입장",
+    "links": [
+      {
+        "kind": "shop_url",
+        "url": "https://manmanmarket.com/minishop/manman32wsc"
+      },
+      {
+        "kind": "kakao_chat_url",
+        "url": "https://open.kakao.com/o/g8KnDNOi"
+      }
+    ],
+    "pending": 0
+  },
+  {
+    "card": "만만마켓평택 용죽점방문 위치는 해당 지점의 안내를 확인해 주세요.웹에서 주문카카오톡방 입장",
+    "links": [
+      {
+        "kind": "shop_url",
+        "url": "https://manmanmarket.com/minishop/manman33pty"
+      },
+      {
+        "kind": "kakao_chat_url",
+        "url": "https://open.kakao.com/o/gtQ3MYOi"
+      }
+    ],
+    "pending": 0
+  },
+  {
+    "card": "만만마켓수지 신봉점방문 위치는 해당 지점의 안내를 확인해 주세요.웹에서 주문카카오톡방 준비 중",
+    "links": [
+      {
+        "kind": "shop_url",
+        "url": "https://manmanmarket.com/minishop/manman34ssb"
+      }
+    ],
+    "pending": 1
+  }
+]

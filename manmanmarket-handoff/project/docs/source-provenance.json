@@ -1,0 +1,72 @@
+{
+  "exported_on": "2026-10-15",
+  "figma_file": "upOICX8Waro7PtRH36TOMX",
+  "method": "Figma Make code editor Select All / Copy",
+  "components": {
+    "home": "Code component 1 (7:10)",
+    "stores": "만만마켓 · 지점 찾기",
+    "guide": "Code layer 1 (23:12)"
+  },
+  "files": [
+    {
+      "file": "guide/main.tsx",
+      "sha256": "32241ed912b236235278c2fcdad2a28f50515d366d28f5ac18f830942eb3d85b",
+      "bytes": 54957
+    },
+    {
+      "file": "guide/guide-images.ts",
+      "sha256": "91fff2a29a4fd532359b09a606a3793ae8950dc66bc69d8286b409bf988b553c",
+      "bytes": 2567414
+    },
+    {
+      "file": "guide/purchase-images.ts",
+      "sha256": "e11b0883c7cd4a5bf8af9b4be176dea570ec8853c8103cb02f3560da97509e3d",
+      "bytes": 638602
+    },
+    {
+      "file": "home/intro-image-1.tsx",
+      "sha256": "924d0712e2d42c7bbfe9377fac8f74a4cd942c5526f5dc291273dbcc09aac8cf",
+      "bytes": 367371
+    },
+    {
+      "file": "home/intro-image-3.tsx",
+      "sha256": "78e29690475977c3f94f2449080d5220407dd7cdc8f1b50d7617d2ff2f2e9337",
+      "bytes": 392378
+    },
+    {
+      "file": "home/main.tsx",
+      "sha256": "ee26c68f24185570cbd4f7c582715095bf46fc07711c87c0ed542b5b33298ec8",
+      "bytes": 80902
+    },
+    {
+      "file": "home/intro-image-2.tsx",
+      "sha256": "43a1313ed489f8246c9a4006d62f4a3d5e198859066ddf884e927f5aad23d2d7",
+      "bytes": 446108
+    },
+    {
+      "file": "home/intro-image-6.tsx",
+      "sha256": "335efb3319c9b73102757148346f46ad1271e0bf1086778e04607dbe026caa22",
+      "bytes": 580728
+    },
+    {
+      "file": "home/intro-image-5.tsx",
+      "sha256": "2b39f8a9878800771ff6e585f7a6ad813711ad9e0830c3fd6680f2c70f720ab0",
+      "bytes": 546009
+    },
+    {
+      "file": "home/intro-image-4.tsx",
+      "sha256": "fa8ba6550952900bd19524e20993964be981c3fc7d4f8eead738bdc0cd45ac97",
+      "bytes": 1012402
+    },
+    {
+      "file": "home/intro-sections.tsx",
+      "sha256": "ee89790479ed1621f59d3535c57cdb08d2db5ae9156d25ccaeab38c757080941",
+      "bytes": 20604
+    },
+    {
+      "file": "stores/main.tsx",
+      "sha256": "4e4eca2537f3d663d48b58e13dfcf1012c5a7428f0b1cd790df5f18e018660a7",
+      "bytes": 61794
+    }
+  ]
+}

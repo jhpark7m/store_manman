@@ -1,0 +1,236 @@
+[
+  {
+    "file": "assets/da4b0c8a7337f9d0.jpg",
+    "source": "guide/guide-images.ts",
+    "bytes": 37355,
+    "sha256": "da4b0c8a7337f9d05161fef4f52a9d7f482b1d84071700fda79ec8c80640137f"
+  },
+  {
+    "file": "assets/7d020e0085df4b90.jpg",
+    "source": "guide/guide-images.ts",
+    "bytes": 35773,
+    "sha256": "7d020e0085df4b900f7d15f005147c2063bbe523cd07497649146155b6c7ff82"
+  },
+  {
+    "file": "assets/827b29677af5ae51.jpg",
+    "source": "guide/guide-images.ts",
+    "bytes": 9305,
+    "sha256": "827b29677af5ae515db8dd26f5de8deee6a460edad22af2cf42162e1413da514"
+  },
+  {
+    "file": "assets/61c72531be641951.jpg",
+    "source": "guide/guide-images.ts",
+    "bytes": 81961,
+    "sha256": "61c72531be64195137e937c6c7b874ff011334b8e91ced2b2c2bed3806728cad"
+  },
+  {
+    "file": "assets/fe5915cac02e9953.jpg",
+    "source": "guide/guide-images.ts",
+    "bytes": 59501,
+    "sha256": "fe5915cac02e99533c61a64be276da738a28a21f5c1d50bea6b369f49cdf0745"
+  },
+  {
+    "file": "assets/ca2673f98823f1a1.jpg",
+    "source": "guide/guide-images.ts",
+    "bytes": 10150,
+    "sha256": "ca2673f98823f1a1f54d20b8c9324103d6d8ec96c48fb66203119855d6f038e0"
+  },
+  {
+    "file": "assets/07bca422e8b8849b.png",
+    "source": "guide/guide-images.ts",
+    "bytes": 678084,
+    "sha256": "07bca422e8b8849bbd795f16cea581b86c116c2d137d8cd488d9dee86ec30c07"
+  },
+  {
+    "file": "assets/20a66d5432c66ea6.png",
+    "source": "guide/guide-images.ts",
+    "bytes": 110428,
+    "sha256": "20a66d5432c66ea6696421964371f2c6e200e7fb9aed450593b7315607288e0a"
+  },
+  {
+    "file": "assets/e0ef9e21ea397f7c.png",
+    "source": "guide/guide-images.ts",
+    "bytes": 173765,
+    "sha256": "e0ef9e21ea397f7c1b0155b081e81657bfcef8728eaeaf367da9ef583f666ebe"
+  },
+  {
+    "file": "assets/839609be6d0a4588.png",
+    "source": "guide/guide-images.ts",
+    "bytes": 438232,
+    "sha256": "839609be6d0a4588d609bcc6c05f287e33c881066c8930bb90d82af684a01767"
+  },
+  {
+    "file": "assets/0c43977f462b2449.png",
+    "source": "guide/guide-images.ts",
+    "bytes": 83634,
+    "sha256": "0c43977f462b2449e22b05a3da65db5aef3740c05e1af1734cc2a081fa5de462"
+  },
+  {
+    "file": "assets/e1c10fc68ced3b47.png",
+    "source": "guide/guide-images.ts",
+    "bytes": 206897,
+    "sha256": "e1c10fc68ced3b47c0cd370ed5ca217287e0a8d8040fbb88f1c02b987e2e592d"
+  },
+  {
+    "file": "assets/a062bd512f5565d0.png",
+    "source": "guide/purchase-images.ts",
+    "bytes": 160478,
+    "sha256": "a062bd512f5565d0629ad2f1765024bc213364ff33638a90d1401622ac072e9b"
+  },
+  {
+    "file": "assets/21f2574e832f2cdc.jpg",
+    "source": "guide/purchase-images.ts",
+    "bytes": 150845,
+    "sha256": "21f2574e832f2cdcfcad3f62579ef935355958f61a7d775b00db63fac925c529"
+  },
+  {
+    "file": "assets/d5cdeb7ec46b32db.png",
+    "source": "guide/purchase-images.ts",
+    "bytes": 167499,
+    "sha256": "d5cdeb7ec46b32dbd2afb6691a2f6b99272c7a247801fa08d7ad89429f1dbdc7"
+  },
+  {
+    "file": "assets/e861923b6e92c8f9.png",
+    "source": "home/intro-image-1.tsx",
+    "bytes": 275484,
+    "sha256": "e861923b6e92c8f93723574526c2c10be66fabeb47f7d220ff4ad4c6d79ca6e8"
+  },
+  {
+    "file": "assets/ef78c4a9c7da0d85.png",
+    "source": "home/intro-image-3.tsx",
+    "bytes": 294243,
+    "sha256": "ef78c4a9c7da0d85c11e18c7f79665c7916c4a615807b3da21bc9306962d0b4b"
+  },
+  {
+    "file": "assets/ddf8c67dbd934f7d.png",
+    "source": "home/intro-image-2.tsx",
+    "bytes": 334537,
+    "sha256": "ddf8c67dbd934f7dd36ffe67a2bd447b3e488912e428a65246d5797d798b1e68"
+  },
+  {
+    "file": "assets/0054bd19af9a2775.jpg",
+    "source": "home/intro-image-6.tsx",
+    "bytes": 435503,
+    "sha256": "0054bd19af9a277525b1c6031c1dca929b80cb8bbc4129c2d18e3e98a6de63b4"
+  },
+  {
+    "file": "assets/52078869d59e0816.jpg",
+    "source": "home/intro-image-5.tsx",
+    "bytes": 409464,
+    "sha256": "52078869d59e0816ffc2d65f6dbbb9a1219e36020e2432457b393dc9606edeac"
+  },
+  {
+    "file": "assets/134d04307e9213d0.jpg",
+    "source": "home/intro-image-4.tsx",
+    "bytes": 759261,
+    "sha256": "134d04307e9213d09e7933275fa0dfa1041ec263e0443e8f35caf3da41801e29"
+  },
+  {
+    "file": "assets/logo.svg",
+    "source": "https://biz.manmanmarket.com/images/logo.svg",
+    "bytes": 204539,
+    "sha256": "2d983527ad70cc0c3e143c79d9826eca5733866184c6c72f6a120674e8cfe5be"
+  },
+  {
+    "file": "assets/footer-logo.png",
+    "source": "https://biz.manmanmarket.com/images/footer-logo.png",
+    "bytes": 15846,
+    "sha256": "f1e2b497dc0c926e7a6b6bd19f7dfb2c1677f795890c3354b42187a68877b1f7"
+  },
+  {
+    "file": "assets/character.png",
+    "source": "https://biz.manmanmarket.com/images/review-2.png",
+    "bytes": 176712,
+    "sha256": "ce80abb52a1d3a0b6c4a71163af02b2cd8cc4523000df19149579aab230f7290"
+  },
+  {
+    "file": "assets/hero-logo.png",
+    "source": "https://ecimg.cafe24img.com/pg2272b91787911027/manman17/web/upload/manman17/list/list_logo_x3.png",
+    "bytes": 71242,
+    "sha256": "5104e3aa06a614f07c020e3784ace0958c38b4fa8104ddf4601b3bbed675b2e3"
+  },
+  {
+    "file": "assets/hero-store.jpg",
+    "source": "https://www.segyebiz.com/content/image/2026/02/20/20260220506415.jpg",
+    "bytes": 333876,
+    "sha256": "4e16cf631c6bb3e20aa7297cfbd6e3773d7e299793df5a0c2cbf079a90d699b0"
+  },
+  {
+    "file": "assets/store.jpg",
+    "source": "https://cdn.platum.kr/wp-content/uploads/2026/06/unnamed-11-1024x768.jpg",
+    "bytes": 150845,
+    "sha256": "21f2574e832f2cdcfcad3f62579ef935355958f61a7d775b00db63fac925c529"
+  },
+  {
+    "file": "assets/fruit.jpg",
+    "source": "https://cdn.enetnews.co.kr/news/photo/202603/47979_64837_1813.jpg",
+    "bytes": 733235,
+    "sha256": "7fabacbdfcabb06c6a49675ec2eacee6c0f2d07fb89b43c17d4264cfbe943e8a"
+  },
+  {
+    "file": "assets/social.png",
+    "source": "https://bit-groove-42091164.figma.site/_assets/v11/37ef5c08eac54aba0bfadbb179c006d3def5407a.png",
+    "bytes": 704568,
+    "sha256": "bea2a6982e4696a73bf479cb55256099a6e84e1c6db50368c7c954c7d0693dab"
+  },
+  {
+    "file": "assets/favicon.png",
+    "source": "https://bit-groove-42091164.figma.site/_assets/v11/7d31bcc43e7a59ba1aad7d63bce8e4f43d477fe7.png",
+    "bytes": 3935,
+    "sha256": "7e981146c87476490f18389c77288a33df0c84c292775a759eb0deacc4ef2b5e"
+  },
+  {
+    "file": "assets/Paperlogy-3Light.woff2",
+    "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-3Light.woff2",
+    "bytes": 162424,
+    "sha256": "9b4c94bc8795370980c0b8a603bdb17eb4de7ff8747bd0e451935526bf55d3bd"
+  },
+  {
+    "file": "assets/Paperlogy-2ExtraLight.woff2",
+    "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-2ExtraLight.woff2",
+    "bytes": 159032,
+    "sha256": "1e64264574846359f000435101626f1b3c8e07c2a1426d2720d1b53a2e18c98f"
+  },
+  {
+    "file": "assets/Paperlogy-8ExtraBold.woff2",
+    "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-8ExtraBold.woff2",
+    "bytes": 158768,
+    "sha256": "aeb624c0842e8e8d551b3ad9da8d65c566751ae9694961eec868022b2e379190"
+  },
+  {
+    "file": "assets/Paperlogy-4Regular.woff2",
+    "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-4Regular.woff2",
+    "bytes": 163628,
+    "sha256": "9edd76a2f1cebb7a511323a593d03bd8b442dcd60f478582f8919aba150521dd"
+  },
+  {
+    "file": "assets/Paperlogy-9Black.woff2",
+    "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-9Black.woff2",
+    "bytes": 166404,
+    "sha256": "f867f53df18a4fe1c95f477e1f29798a99f670066acbbaf47d30e8eaa7ae4cb0"
+  },
+  {
+    "file": "assets/Paperlogy-5Medium.woff2",
+    "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-5Medium.woff2",
+    "bytes": 163820,
+    "sha256": "73e6667e7e446ccb8c37d743f8cb80669336db8e0bd614e9ec3fa47d5fd94ad7"
+  },
+  {
+    "file": "assets/Paperlogy-6SemiBold.woff2",
+    "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-6SemiBold.woff2",
+    "bytes": 164700,
+    "sha256": "92534e047cf2d0200d66a50ec8895388cd5088b162f4aad50e21ac86eeef83b5"
+  },
+  {
+    "file": "assets/Paperlogy-1Thin.woff2",
+    "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-1Thin.woff2",
+    "bytes": 162532,
+    "sha256": "4617329279663a2a1e1779869f99418daf0cbe7da91bcd943f2a6feec30da790"
+  },
+  {
+    "file": "assets/Paperlogy-7Bold.woff2",
+    "source": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-7Bold.woff2",
+    "bytes": 163844,
+    "sha256": "fe2a655ea14d43c9f8b91557fd1a5eba423b1a6b0fa621b5749b9f5231634682"
+  }
+]

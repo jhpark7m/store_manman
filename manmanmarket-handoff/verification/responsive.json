@@ -1,0 +1,20 @@
+[
+  {
+    "contentWidth": 305,
+    "footer": true,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "contentWidth": 819,
+    "footer": true,
+    "overflow": false,
+    "width": 834
+  },
+  {
+    "contentWidth": 1425,
+    "footer": true,
+    "overflow": false,
+    "width": 1440
+  }
+]

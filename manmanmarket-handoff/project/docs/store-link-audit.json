@@ -1,0 +1,56 @@
+{
+  "checked_on": "2026-10-15",
+  "source": "https://rbllvsekqsdszsmzmwhp.supabase.co/functions/v1/store-get",
+  "exported_count": 31,
+  "current_displayed_count": 34,
+  "added": [
+    {
+      "id": 54,
+      "name": "왕십리 센트라스점"
+    },
+    {
+      "id": 55,
+      "name": "평택 용죽점"
+    },
+    {
+      "id": 56,
+      "name": "수지 신봉점"
+    }
+  ],
+  "differences": [
+    {
+      "id": 51,
+      "name": "용인 한숲시티점",
+      "field": "shop_url",
+      "exported": "https://manman17.cafe24.com/minishop/manman30yhc",
+      "live": "https://manmanmarket.com/minishop/manman30yhc",
+      "preserve_user_override": true
+    },
+    {
+      "id": 52,
+      "name": "잠실 장미아파트점",
+      "field": "shop_url",
+      "exported": "https://manman17.cafe24.com/minishop/manman31jja?cate_no=430",
+      "live": "https://manmanmarket.com/minishop/manman31jja",
+      "preserve_user_override": true
+    },
+    {
+      "id": 52,
+      "name": "잠실 장미아파트점",
+      "field": "kakao_chat_url",
+      "exported": "http://open.kakao.com/o/gpTwW2Ni",
+      "live": "https://open.kakao.com/o/gpTwW2Ni",
+      "preserve_user_override": true
+    }
+  ],
+  "scope": "Public data comparison, not a checkout or chat-room join test",
+  "delivered_count": 34,
+  "pending_chat_ids": [
+    56
+  ],
+  "user_decision": "최신 34개 지점으로 반영",
+  "user_confirmed_chat_urls": {
+    "54": "https://open.kakao.com/o/g8KnDNOi",
+    "55": "https://open.kakao.com/o/gtQ3MYOi"
+  }
+}
