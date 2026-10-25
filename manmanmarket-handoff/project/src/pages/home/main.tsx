@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { IntroQualitySections, introQualityStyles } from "./intro-sections";
+import { DealHero, dealHeroStyles } from "./hero";
 
 /*
  * 만만마켓 고객용 홈페이지 — 검토 초안 / 자동 게시하지 않음.
@@ -22,11 +23,9 @@ const CTA_LABEL = "가까운 지점 찾기";
 const ASSETS = {
   logo: "/assets/logo.svg",
   footerLogo: "/assets/footer-logo.png",
-  hero: "/assets/hero-store.jpg",
   store: "/assets/store.jpg",
   fruit: "/assets/fruit.jpg",
   character: "/assets/character.png",
-  heroCharacter: "/assets/hero-logo.png",
 };
 
 const METHODS = [
@@ -510,7 +509,7 @@ export default function Layer() {
   const toggleFaq = (index: number) => setOpenFaqs((current) => current.includes(index) ? current.filter((item) => item !== index) : [...current, index]);
 
   return <div className="mm-root" lang="ko" ref={rootRef}>
-    <style>{styles + introQualityStyles}</style>
+    <style>{styles + introQualityStyles + dealHeroStyles}</style>
     <a className="mm-skip" href="#mm-main" onClick={(event) => jumpTo(event, "mm-main")}>본문 바로가기</a>
     <header className="mm-header">
       <div className="mm-shell mm-header-inner">
@@ -528,24 +527,7 @@ export default function Layer() {
     </header>
 
     <main id="mm-main" tabIndex={-1}>
-      <section className="mm-hero" aria-labelledby="mm-hero-title">
-        <div className="mm-shell mm-hero-grid">
-          <div className="mm-hero-brand-block">
-            <div className="mm-hero-copy">
-              <h1 id="mm-hero-title" className="mm-hero-slogan"><span className="mm-hero-slogan-line"><span>만만하지 않은 제품을</span>{" "}<span>만만한 가격에</span></span><span className="mm-hero-slogan-line mm-hero-brand-line"><span className="mm-hero-brand-tagline">현명한 소비의 시작,</span><img className="mm-hero-inline-logo" src={ASSETS.logo} alt="만만마켓" width="4096" height="821" loading="eager" /></span></h1>
-              <img className="mm-hero-brand-logo" src={ASSETS.logo} alt="만만마켓" width="4096" height="821" loading="eager" />
-              <div className="mm-hero-action"><FindStoreButton /></div>
-            </div>
-            <img className="mm-hero-mascot" src={ASSETS.heroCharacter} alt="" aria-hidden="true" loading="eager" />
-          </div>
-          <figure className="mm-hero-figure">
-            <div className="mm-hero-photo-wrap"><img className="mm-hero-photo" src={ASSETS.hero} alt="과일과 냉장·냉동 식품, 상온 상품이 진열된 만만마켓 실제 매장 내부" width="1200" height="720" loading="eager" /></div>
-            <figcaption className="mm-photo-caption"><span><span className="mm-caption-dot" />우리 동네, 만만마켓</span><span>특가 주문 · 매장 픽업 · 상시 판매</span></figcaption>
-            <div className="mm-hero-stamp" aria-hidden="true"><Icon name="basket" size={29} /><span>동네에서<br /><strong>만나는 만족</strong></span></div>
-          </figure>
-        </div>
-        <div className="mm-shell mm-hero-bottom"><a className="mm-hero-explore" href="#mm-intro" onClick={(event) => jumpTo(event, "mm-intro")}><span>만만마켓 알아보기</span><span className="mm-hero-explore-icon" aria-hidden="true"><Icon name="arrow" size={22} /></span></a></div>
-      </section>
+      <DealHero ctaHref={STORE_FINDER_URL} onCtaClick={goToStores} />
 
       <IntroQualitySections storeCta={<FindStoreButton />} />
 
