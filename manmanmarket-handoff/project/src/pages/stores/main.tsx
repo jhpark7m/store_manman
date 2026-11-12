@@ -6,7 +6,8 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
  * IDs 51 and 52 preserve the user's explicit Cafe24 / query / HTTP exceptions.
  * Address evidence: 29 public records; IDs 51, 52, 54, 55 and 56 remain unknown. ID 56 has a pending chat URL; IDs 54–55 use user-confirmed links.
  * Map URLs are retained as data only, because their destinations need rechecking.
- * No account login, room joining, analytics, geolocation, or publishing is performed.
+ * Kakao room clicks/copies are pushed to the GTM dataLayer (event: store_kakao_click / store_kakao_copy) for GA4.
+ * No account login, room joining, geolocation, or publishing is performed.
  * Root routing: set homeUrl to the actual site's verified home route.
  */
 
@@ -89,9 +90,17 @@ function getScrollHost(root: HTMLElement | null): HTMLElement | null {
   return null;
 }
 
+type KakaoPlacement = "card" | "recent" | "copy";
+function trackKakao(event: "store_kakao_click" | "store_kakao_copy", store: Store, placement: KakaoPlacement) {
+  try {
+    const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
+    (w.dataLayer = w.dataLayer || []).push({ event, store_id: store.store_id, store_name: store.name, store_region: store.region ?? "", link_url: store.kakao_chat_url ?? "", link_placement: placement });
+  } catch { /* Analytics must never block navigation. */ }
+}
+
 function StoreActions({ store, onLeave, compact = false }: { store: Store; onLeave: (store: Store) => void; compact?: boolean }) {
   return <div className={`mm-stores-actions${compact ? " mm-stores-actions-small" : ""}`}>
-    {store.kakao_chat_url ? <a className="mm-stores-action mm-stores-kakao" href={store.kakao_chat_url} target="_blank" rel="noopener noreferrer" data-mm-store-id={store.store_id} data-mm-link-kind="kakao_chat_url" aria-label={`${store.name} 카카오톡방 입장 (새 창)`} onClick={() => onLeave(store)}>
+    {store.kakao_chat_url ? <a className="mm-stores-action mm-stores-kakao" href={store.kakao_chat_url} target="_blank" rel="noopener noreferrer" data-mm-store-id={store.store_id} data-mm-link-kind="kakao_chat_url" aria-label={`${store.name} 카카오톡방 입장 (새 창)`} onClick={() => { trackKakao("store_kakao_click", store, compact ? "recent" : "card"); onLeave(store); }}>
       <Icon name="chat" size={18} /><span>카카오톡방 입장</span><Icon name="external" size={13} />
     </a> : <span className="mm-stores-action mm-stores-pending" aria-label={`${store.name} 카카오톡방 준비 중`}>카카오톡방 준비 중</span>}
   </div>;
@@ -223,6 +232,7 @@ export default function Layer({ homeUrl = DEFAULT_HOME_URL }: { homeUrl?: string
     try {
       if (!navigator.clipboard?.writeText) throw new Error("Clipboard unavailable");
       await navigator.clipboard.writeText(copyStore.kakao_chat_url);
+      trackKakao("store_kakao_copy", copyStore, "copy");
       setCopyStatus(`${copyStore.name} 카카오톡방 링크를 복사했어요.`);
     } catch {
       setManualCopy(true);
