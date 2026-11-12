@@ -34,7 +34,9 @@ type Store = {
 
 const STORES = storesData as Store[];
 
-const SORTED_STORES = [...STORES].sort((a, b) => a.name.localeCompare(b.name, "ko"));
+// 점포 순서(호수) = 웹 주문 주소의 manmanNN 번호. 1호점부터 위에 표시합니다.
+const storeNo = (store: { shop_url: string }) => Number(store.shop_url.match(/\/minishop\/manman(\d+)/)?.[1] ?? 9999);
+const SORTED_STORES = [...STORES].sort((a, b) => storeNo(a) - storeNo(b) || a.name.localeCompare(b.name, "ko"));
 const STORE_BY_ID = new Map(STORES.map((store) => [store.store_id, store]));
 const normalise = (value: string) => value.normalize("NFKC").replace(/\s+/g, "").toLocaleLowerCase("ko");
 const SEARCH_TEXT = new Map(STORES.map((store) => [store.store_id, normalise([store.name, store.region, store.district, store.address_text].filter(Boolean).join(" "))]));
@@ -268,7 +270,7 @@ export default function Layer({ homeUrl = DEFAULT_HOME_URL }: { homeUrl?: string
       <section className="mm-stores-results-section" aria-labelledby="mm-stores-results-title">
         <div className="mm-stores-shell">
           {recentStore && !filtering && <aside className="mm-stores-recent" aria-label="최근 이용 지점"><div className="mm-stores-recent-heading"><span><Icon name="clock" size={16} />최근 이용 지점</span><button type="button" onClick={removeRecent} aria-label="최근 이용 지점 기록 삭제"><Icon name="close" size={16} /></button></div><div className="mm-stores-recent-body"><h2>{recentStore.name}</h2><StoreActions store={recentStore} onLeave={leaveForStore} compact /></div></aside>}
-          <div className="mm-stores-results-heading"><h2 id="mm-stores-results-title">{filtering ? "검색 결과" : "전체"} <strong>{filtered.length}</strong><span>개 지점</span></h2><span className="mm-stores-order">지점명순</span></div>
+          <div className="mm-stores-results-heading"><h2 id="mm-stores-results-title">{filtering ? "검색 결과" : "전체"} <strong>{filtered.length}</strong><span>개 지점</span></h2><span className="mm-stores-order">개점순</span></div>
           <p className="mm-stores-connection-note">외부 링크는 새 창으로 열립니다.</p>
           <p className="mm-stores-sr-only" role="status" aria-live="polite" aria-atomic="true">{moreMessage || (filtering ? `검색 결과 ${filtered.length}개 지점` : `전체 ${STORES.length}개 중 ${visibleStores.length}개 지점 표시`)}</p>
           {filtered.length ? <>

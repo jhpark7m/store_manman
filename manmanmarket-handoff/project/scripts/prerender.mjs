@@ -40,7 +40,8 @@ const storeLd = (s) => ({
   ...(s.map_url && { hasMap: s.map_url }),
   sameAs: [s.shop_url, s.kakao_chat_url].filter(Boolean),
 });
-const sortedStores = [...stores].sort((a, b) => a.name.localeCompare(b.name, 'ko'));
+const storeNo = (s) => Number(s.shop_url.match(/\/minishop\/manman(\d+)/)?.[1] ?? 9999); // 점포 순서(호수)
+const sortedStores = [...stores].sort((a, b) => storeNo(a) - storeNo(b) || a.name.localeCompare(b.name, 'ko'));
 const count = (region) => stores.filter((s) => s.region === region).length;
 
 const pages = {
