@@ -5,7 +5,7 @@
   "source_api": "https://rbllvsekqsdszsmzmwhp.supabase.co/functions/v1/store-get",
   "selection_rule": "is_active == true and is_display == true",
   "verification_scope": "2026-10-15 공개 고객 표시 지점 34개 대조. 51·52 사용자 지정 주소 유지. 신규 왕십리 센트라스점(54)·평택 용죽점(55) 카카오톡 URL은 사용자 직접 제공. 수지 신봉점(56)은 공식 URL 미확인으로 null. 로그인·주문·채팅방 참여 미실행.",
-  "count": 34,
+  "count": 40,
   "excluded_non_display_names": [
     "점주몰",
     "자체공급"
@@ -264,6 +264,60 @@
       "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman34ssb",
       "kakao_chat_status": "pending_official_url",
       "raw_chat_url": "수지 신봉점"
+    },
+    {
+      "store_id": 58,
+      "name": "개포 디에이치퍼스티어아이파크점",
+      "shop_url": "https://manmanmarket.com/minishop/manman35gfi",
+      "kakao_chat_url": null,
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman35gfi",
+      "kakao_chat_status": "pending_official_url",
+      "raw_chat_url": "개포 디에이치퍼스티어아이파크점"
+    },
+    {
+      "store_id": 59,
+      "name": "마포 래미안푸르지오점",
+      "shop_url": "https://manmanmarket.com/minishop/manman36mrp",
+      "kakao_chat_url": null,
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman36mrp",
+      "kakao_chat_status": "pending_official_url",
+      "raw_chat_url": "마포 래미안푸르지오점"
+    },
+    {
+      "store_id": 60,
+      "name": "양주 회천신도시점",
+      "shop_url": "https://manmanmarket.com/minishop/manman37yhn",
+      "kakao_chat_url": null,
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman37yhn",
+      "kakao_chat_status": "pending_official_url",
+      "raw_chat_url": "양주 회천신도시점"
+    },
+    {
+      "store_id": 61,
+      "name": "마포역점",
+      "shop_url": "https://manmanmarket.com/minishop/manman38mps",
+      "kakao_chat_url": null,
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman38mps",
+      "kakao_chat_status": "pending_official_url",
+      "raw_chat_url": "마포역점"
+    },
+    {
+      "store_id": 62,
+      "name": "감일 마크베르점",
+      "shop_url": "https://manmanmarket.com/minishop/manman39gmb",
+      "kakao_chat_url": null,
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman39gmb",
+      "kakao_chat_status": "pending_official_url",
+      "raw_chat_url": "감일 마크베르점"
+    },
+    {
+      "store_id": 63,
+      "name": "과천 래미안슈르점",
+      "shop_url": "https://manmanmarket.com/minishop/manman40grs",
+      "kakao_chat_url": null,
+      "cafe24_shop_url": "https://manman17.cafe24.com/minishop/manman40grs",
+      "kakao_chat_status": "pending_official_url",
+      "raw_chat_url": "과천 래미안슈르점"
     }
   ],
   "primary_shop_domain": "https://manmanmarket.com",
@@ -278,5 +332,6 @@
     51,
     52
   ],
-  "link_priority": "최신 사용자 제공 링크를 우선한다. 용인 한숲시티점(51)·잠실 장미아파트점(52)은 사용자가 지정한 Cafe24 shop_url을 사용한다. 잠실의 ?cate_no=430 및 카카오 http 스킴을 원문대로 보존한다. 그 외 29개는 기존 매칭 유지."
+  "link_priority": "최신 사용자 제공 링크를 우선한다. 용인 한숲시티점(51)·잠실 장미아파트점(52)은 사용자가 지정한 Cafe24 shop_url을 사용한다. 잠실의 ?cate_no=430 및 카카오 http 스킴을 원문대로 보존한다. 그 외 29개는 기존 매칭 유지.",
+  "last_sync_on": "2026-11-12"
 }

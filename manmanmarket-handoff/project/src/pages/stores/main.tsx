@@ -2,7 +2,7 @@ import storesData from "../../data/stores.json";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
 /* 만만마켓 지점 찾기 / 2026-10-03 / Figma Sites code component.
- * 34 customer-visible stores checked 2026-10-15; see ../../data/stores.json.
+ * Customer-visible stores; see ../../data/stores.json (add new ones with `npm run sync:stores`).
  * IDs 51 and 52 preserve the user's explicit Cafe24 / query / HTTP exceptions.
  * Address evidence: 29 public records; IDs 51, 52, 54, 55 and 56 remain unknown. ID 56 has a pending chat URL; IDs 54–55 use user-confirmed links.
  * Map URLs are retained as data only, because their destinations need rechecking.

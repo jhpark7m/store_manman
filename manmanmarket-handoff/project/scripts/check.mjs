@@ -3,8 +3,9 @@ import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 const stores=JSON.parse(readFileSync('src/data/stores.json','utf8'));
 const reference=JSON.parse(readFileSync('docs/store-links-reference.json','utf8'));
-assert.equal(stores.length,34);
-assert.equal(new Set(stores.map(s=>s.store_id)).size,34);
+// 지점 수는 고정값이 아니라 대조표(docs/store-links-reference.json)와 일치하는지로 검증합니다. (지점 추가: npm run sync:stores)
+assert.equal(stores.length,reference.count);
+assert.equal(new Set(stores.map(s=>s.store_id)).size,stores.length);
 assert(!stores.some(s=>['점주몰','자체공급'].includes(s.name)));
 for(const s of stores){
  const r=reference.stores.find(r=>r.store_id===s.store_id);assert(r);
@@ -12,7 +13,8 @@ for(const s of stores){
  assert(/^https:\/\//.test(s.shop_url));
  assert(s.kakao_chat_url===null||/^https?:\/\/open\.kakao\.com\/o\/[A-Za-z0-9]+$/.test(s.kakao_chat_url));
 }
-assert.deepEqual(stores.filter(s=>!s.kakao_chat_url).map(s=>s.store_id),[56]);
+const pendingChatIds=reference.stores.filter(r=>!r.kakao_chat_url).map(r=>r.store_id);
+assert.deepEqual(stores.filter(s=>!s.kakao_chat_url).map(s=>s.store_id),pendingChatIds.filter(id=>stores.some(s=>s.store_id===id)));
 const walk=d=>readdirSync(d).flatMap(n=>{const f=join(d,n);return statSync(f).isDirectory()?walk(f):[f]});
 let refs=0;
 for(const f of [...walk('src'),...walk('public').filter(f=>f.endsWith('.css'))]){
@@ -32,4 +34,4 @@ assert(homeHtml.includes('"@type":"FAQPage"'),'Home JSON-LD missing');
 assert(!storesHtml.includes('<div id="root"></div>')&&storesHtml.includes('카카오톡방 입장'),'Stores is not prerendered');
 assert.equal(storesHtml.match(/"@type":"GroceryStore"/g)?.length,stores.length,'Stores JSON-LD count');
 assert(stores.every(s=>readFileSync('dist/llms.txt','utf8').includes(s.name)),'llms.txt store list incomplete');
-console.log(JSON.stringify({passed:true,stores:stores.length,webLinks:stores.length,chatLinks:33,pendingChatLinks:1,assetReferences:refs,footerPages:2,staticEntryPages:2,prerendered:2,seoFiles:3},null,2));
+console.log(JSON.stringify({passed:true,stores:stores.length,webLinks:stores.length,chatLinks:stores.filter(s=>s.kakao_chat_url).length,pendingChatLinks:stores.filter(s=>!s.kakao_chat_url).length,assetReferences:refs,footerPages:2,staticEntryPages:2,prerendered:2,seoFiles:3},null,2));
