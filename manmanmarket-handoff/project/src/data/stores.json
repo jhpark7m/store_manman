@@ -375,10 +375,11 @@
     "district": null,
     "address_text": null,
     "address_status": "pending_official_address",
-    "map_url": null,
+    "map_url": "https://naver.me/5g4a6H2V",
     "shop_url": "https://manmanmarket.com/minishop/manman34ssb",
-    "kakao_chat_url": null,
-    "link_source": "public_store_api_2026-10-15_chat_url_is_not_a_url"
+    "kakao_chat_url": "https://open.kakao.com/o/g8QPOYOi",
+    "link_source": "user_confirmed_2026-11-12",
+    "kakao_chat_status": "user_confirmed"
   },
   {
     "store_id": 58,
@@ -389,8 +390,9 @@
     "address_status": "pending_official_address",
     "map_url": null,
     "shop_url": "https://manmanmarket.com/minishop/manman35gfi",
-    "kakao_chat_url": null,
-    "link_source": "public_store_api_2026-11-12"
+    "kakao_chat_url": "https://open.kakao.com/o/gqxVU2Ri",
+    "link_source": "user_confirmed_2026-11-12",
+    "kakao_chat_status": "user_confirmed"
   },
   {
     "store_id": 59,
@@ -401,8 +403,9 @@
     "address_status": "pending_official_address",
     "map_url": null,
     "shop_url": "https://manmanmarket.com/minishop/manman36mrp",
-    "kakao_chat_url": null,
-    "link_source": "public_store_api_2026-11-12"
+    "kakao_chat_url": "https://open.kakao.com/o/g7smwEUi",
+    "link_source": "user_confirmed_2026-11-12",
+    "kakao_chat_status": "user_confirmed"
   },
   {
     "store_id": 60,
@@ -413,8 +416,9 @@
     "address_status": "pending_official_address",
     "map_url": null,
     "shop_url": "https://manmanmarket.com/minishop/manman37yhn",
-    "kakao_chat_url": null,
-    "link_source": "public_store_api_2026-11-12"
+    "kakao_chat_url": "https://open.kakao.com/o/gYoWbNUi",
+    "link_source": "user_confirmed_2026-11-12",
+    "kakao_chat_status": "user_confirmed"
   },
   {
     "store_id": 61,
@@ -425,8 +429,9 @@
     "address_status": "pending_official_address",
     "map_url": null,
     "shop_url": "https://manmanmarket.com/minishop/manman38mps",
-    "kakao_chat_url": null,
-    "link_source": "public_store_api_2026-11-12"
+    "kakao_chat_url": "https://open.kakao.com/o/gpF49MUi",
+    "link_source": "user_confirmed_2026-11-12",
+    "kakao_chat_status": "user_confirmed"
   },
   {
     "store_id": 62,
@@ -437,8 +442,9 @@
     "address_status": "pending_official_address",
     "map_url": null,
     "shop_url": "https://manmanmarket.com/minishop/manman39gmb",
-    "kakao_chat_url": null,
-    "link_source": "public_store_api_2026-11-12"
+    "kakao_chat_url": "https://open.kakao.com/o/g0vebNUi",
+    "link_source": "user_confirmed_2026-11-12",
+    "kakao_chat_status": "user_confirmed"
   },
   {
     "store_id": 63,
@@ -449,7 +455,8 @@
     "address_status": "pending_official_address",
     "map_url": null,
     "shop_url": "https://manmanmarket.com/minishop/manman40grs",
-    "kakao_chat_url": null,
-    "link_source": "public_store_api_2026-11-12"
+    "kakao_chat_url": "https://open.kakao.com/o/gJ3EcNUi",
+    "link_source": "user_confirmed_2026-11-12",
+    "kakao_chat_status": "user_confirmed"
   }
 ]
