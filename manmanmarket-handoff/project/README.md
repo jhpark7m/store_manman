@@ -52,3 +52,18 @@ Figma 전용 페이지 이동 연결을 일반 웹 링크로 변경하고, 코�
 
 상품 결제·주문·카카오톡방 참여는 기존 외부 서비스에서 진행됩니다. 이 프로젝트는 회사 소개, 지점 연결과 이용 안내를 제공합니다.
 Figma 편집기, Figma 프로젝트 파일, 게시 계정이나 DNS 권한은 포함되지 않습니다.
+
+## 배포 (Vercel)
+
+```sh
+npm run deploy
+```
+
+빌드 → 검증 → Vercel 운영 배포 → IndexNow 알림(Bing·네이버 등)까지 한 번에 실행합니다.
+GitHub에 push해도 자동 배포되지 않으니 반드시 이 명령으로 배포하세요.
+
+## 검색·AI 노출 (SEO)
+
+- 빌드 시 `scripts/prerender.mjs`가 페이지 본문을 정적 HTML로 미리 채우고, 구조화 데이터(JSON-LD)·`sitemap.xml`·`llms.txt`를 생성합니다. JS를 실행하지 않는 AI 크롤러(GPTBot, ClaudeBot 등)도 본문을 읽을 수 있습니다.
+- `stores.json`·FAQ 문구를 수정하면 구조화 데이터와 llms.txt에 자동 반영됩니다.
+- `index.html`의 `google-site-verification`, `msvalidate.01`(Bing), `naver-site-verification` 메타 태그와 `public/naver*.html`, `public/<IndexNow 키>.txt`는 검색엔진 소유확인용이므로 지우지 마세요.
